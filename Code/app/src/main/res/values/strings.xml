@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Svace Indaper</string>
+    <string name="youLose">You Lose</string>
+    <string name="restart">Restart</string>
+    <string name="finish">Enter High Score</string>
+    <string name="playerSpeed">Player Speed</string>
+    <string name="bulletSpeed">Bullet Speed</string>
+    <string name="bulletNB">Bullet/sec</string>
+    <string name="submit">Submit</string>
+    <string name="button_play">Play</string>
+    <string name="button_scores">Scores</string>
+    <string name="hint_name">Your Name</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.GameActivity">
+    <LinearLayout
+        android:id="@+id/layout_game_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@android:dimen/app_icon_size">
+
+            <Button
+                android:id="@+id/ButtonUpgradeSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="upgradeBulletSpeed"
+                android:text="@string/bulletSpeed" />
+            <Button
+                android:id="@+id/ButtonUpgradeBulletNb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bulletNB"
+                android:onClick="upgradeBulletNb"/>
+            <Button
+                android:id="@+id/ButtonUpgradePlayerSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/playerSpeed"
+                android:onClick="upgradePlayerSpeed"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
